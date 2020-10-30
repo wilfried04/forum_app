@@ -31,6 +31,7 @@ Forum is an application of communication between friends, this application has t
 - [ ] topics function
 - [ ] limits function
 - [ ] subscribes function
+- [ ] tag function
 
 * ## Catalog design,Table_Definition,Screen transition diagram,,Wire frame
 
