@@ -24,12 +24,17 @@ Forum is an application of communication between friends, this application has t
 - [ ] Profile rating system
 - [ ] search fonction
 - [ ] sort function
-- [ ] publish video function
-
+- [ ] comments function
+- [ ] likes function
+- [ ] favorites function
+- [ ] frienship function
+- [ ] topics function
+- [ ] limits function
+- [ ] subscribes function
 
 * ## Catalog design,Table_Definition,Screen transition diagram,,Wire frame
 
-https://docs.google.com/spreadsheets/d/1QvbMnps_vDULirWBUK_KrOFocNG2l9NIvMvqee4x-pk/edit#gid=663385135
+https://docs.google.com/spreadsheets/d/1QvbMnps_vDULirWBUK_KrOFocNG2l9NIvMvqee4x-pk/edit?usp=sharing
 
 * ## Gem to use
 * devise
