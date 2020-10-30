@@ -1,7 +1,7 @@
 # README
 * ## version
 ruby 2.7.1
-rails 6.0.3
+    rails 6.0.3
 
 # forum_app (english version)
 * ## Overview
@@ -35,7 +35,7 @@ Forum is an application of communication between friends, this application has t
 
 * ## Catalog design,Table_Definition,Screen transition diagram,,Wire frame
 
-https://docs.google.com/spreadsheets/d/1QvbMnps_vDULirWBUK_KrOFocNG2l9NIvMvqee4x-pk/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1QvbMnps_vDULirWBUK_KrOFocNG2l9NIvMvqee4x-pk/edit?usp=sharingg
 
 * ## Gem to use
 * devise
