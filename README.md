@@ -36,6 +36,8 @@ Forum is an application of communication between friends, this application has t
 * ## Catalog design,Table_Definition,Screen transition diagram,,Wire frame
 
 https://docs.google.com/spreadsheets/d/1QvbMnps_vDULirWBUK_KrOFocNG2l9NIvMvqee4x-pk/edit?usp=sharingg
+* ## ER diagram
+https://github.com/wilfried04/forum_app/blob/master/erd.pdf
 
 * ## Gem to use
 * devise
