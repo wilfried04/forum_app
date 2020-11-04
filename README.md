@@ -43,6 +43,9 @@ https://github.com/wilfried04/forum_app/blob/master/erd.pdf
 * ## ER diagram
 https://docs.google.com/spreadsheets/d/1QvbMnps_vDULirWBUK_KrOFocNG2l9NIvMvqee4x-pk/edit#gid=1974155304
 
+* ## Wireframe diagram
+https://docs.google.com/spreadsheets/d/1QvbMnps_vDULirWBUK_KrOFocNG2l9NIvMvqee4x-pk/edit#gid=152887770
+
 * ## Gem to use
 * devise
 * omniauth-facebook
