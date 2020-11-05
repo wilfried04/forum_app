@@ -38,8 +38,7 @@ Forum is an application of communication between friends, this application has t
 https://docs.google.com/spreadsheets/d/1QvbMnps_vDULirWBUK_KrOFocNG2l9NIvMvqee4x-pk/edit#gid=1974267887
 
 * ## Screen transition diagram 
-https://github.com/wilfried04/forum_app/blob/master/erd.pdf
-
+https://docs.google.com/spreadsheets/d/1QvbMnps_vDULirWBUK_KrOFocNG2l9NIvMvqee4x-pk/edit#gid=1974267887
 * ## ER diagram
 https://docs.google.com/spreadsheets/d/1QvbMnps_vDULirWBUK_KrOFocNG2l9NIvMvqee4x-pk/edit#gid=1974155304
 
