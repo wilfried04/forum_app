@@ -1,0 +1,52 @@
+<% if @topic.errors.any? %>
+	<ul>
+		<% @topic.errors.full_messages.each do |msg| %>
+			<li><%= msg %></li> 
+		<% end %>
+	</ul>
+<% end %>
+
+<div class="form-group">
+	<div class="form-group">
+		<%= f.collection_radio_buttons(:limit_id , Limit.all , :id , :name , {} , { checked: true } )   %>
+	</div>
+	<div class="file-field">
+		<%= file_field_tag "images[]" , :type => :file %>
+	</div>
+	<br>
+	<span id="new_file" class="btn btn-warning">More File</span>
+</div>
+<div class="form-group">
+	<%= f.label :draft do %>Draft
+	<%= f.check_box :draft, {}, 'true' , 'false' %>
+	<% end %>
+</div>
+<div id="draft-time" class="form-group">
+	<%= f.datetime_field :draft_time %>
+</div>
+<div class="form-group">
+	<%= f.collection_check_boxes(:category_ids, Category.all, :id, :name) %>
+</div>
+<div class="form-group">
+	<%= f.label :title , "Title : " %>
+	<%= f.text_field :title , :class => "form-control" %>
+</div>
+	<%= f.label :content , "Content : " %>
+	<%= f.text_area :content , :rows => "20" , :class => "form-control" %>
+<div class="form-group">
+	<%= f.hidden_field :user_id , :value => @user.id %>
+</div>
+	<%= f.submit :class => "btn btn-success" %>
+
+
+<script>
+	$(document).ready(function(){
+		$('#new_file').click(function(){
+			$('.file-field').append('<%= file_field_tag "images[]" , :type => :file %>');
+		});
+
+		$("#topic_draft").click(function(){
+			$("#draft-time").toggleClass('show')
+		});
+	});	
+</script>

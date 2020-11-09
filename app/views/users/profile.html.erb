@@ -1,0 +1,55 @@
+<div class="container">
+	<h2>Hello! <%= @user.email %></h2>
+
+	<%= link_to "Back To List" , topics_path , :class => "btn btn-primary pull-right" %>
+	
+	<div class="clearfix"></div>
+	
+	
+	<%= form_for @user , :url => user_path(@user) , :method => :patch do |f| %>
+	 	<div class="form-group">
+			<%= f.label :avatar , "Avatar: " %>
+			<%= f.file_field :avatar %>
+		</div>
+		<div class="form-group">
+		<%= f.label :email , "Email : " %>
+		<%= f.text_field :email , :disabled => "disabled" , :class => "form-control" %>
+		</div>
+		<div class="form-group">
+		<%= f.label :nickname , "Nickname : " %>
+		<%= f.text_field :nickname , :class => "form-control" %>
+		</div>
+		<%= f.submit :class => "btn btn-success" %>
+	<% end %>
+
+		
+	
+	<% @topics.each do |t| %>
+		<%= form_for t , :url => "" , :method => :patch do |f| %>
+			<div class="form-group">
+				<%= f.collection_check_boxes(:category_ids, Category.all, :id, :name) %>
+			</div>
+			<div class="form-group">
+				<%= f.label :title , "Title : " %>
+				<%= f.text_field :title , :class => "form-control" %>
+			</div>
+				<%= f.label :content , "Content : " %>
+				<%= f.text_area :content , :rows => "20" , :class => "form-control" %>
+			<div class="form-group">
+				<%= f.hidden_field :t_time , :value => Time.now %>
+				<%= f.hidden_field :user_id , :value => @user.id %>
+			</div>
+		<% end %>
+	<% end %>
+
+	<% @comments.each  do |c| %>
+		<%= form_for c , :url => "" do |f| %>
+		<div class="form-group">
+			<%= f.label :content , "Content : " %>
+			<%= f.text_area :content , :rows => "20" , :class => "form-control" %>
+		</div>
+			<%= f.hidden_field :user_id , :value => @user.id %>
+		<% end %>
+	<% end %>
+
+</div>

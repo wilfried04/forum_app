@@ -1,0 +1,138 @@
+.clearfix{
+  clear: both;
+}
+
+.table th {
+	font-size: 18px;
+}
+
+.topic_show {
+	background-color: #ccc;
+	padding : 20px;
+	margin-bottom: 20px;
+}
+
+.new_topic {
+	border-radius: 15px;
+	margin-top: 20px;
+	padding: 30px 20px 20px 20px;
+	padding-bottom : 50px;
+	background-color: #D5EDF8;
+}
+
+.new_topic label {
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+.edit_topic {
+	border-radius: 15px;
+	margin-top: 20px;
+	padding: 30px 20px 20px 20px;
+	padding-bottom : 50px;
+	background-color: #D5EDF8;
+}
+
+.edit_topic label {
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+.new_comment {
+	border-radius: 15px;
+	margin-top: 20px;
+	padding: 30px 20px 20px 20px;
+	padding-bottom : 50px;
+	background-color: #D5EDF8;
+}
+
+.new_comment label {
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+.edit_comment {
+	border-radius: 15px;
+	margin-top: 20px;
+	padding: 30px 20px 20px 20px;
+	padding-bottom : 50px;
+	background-color: #D5EDF8;
+}
+
+.edit_comment label {
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+.edit_user {
+	border-radius: 15px;
+	margin-top: 20px;
+	padding: 30px 20px 20px 20px;
+	padding-bottom : 50px;
+	background-color: #D5EDF8;
+}
+
+.edit_user label {
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+.new_category {
+	border-radius: 15px;
+	margin-top: 20px;
+	padding: 30px 20px 20px 20px;
+	padding-bottom : 50px;
+	background-color: #D5EDF8;
+}
+
+.new_category label {
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+.edit_category {
+	border-radius: 15px;
+	margin-top: 20px;
+	padding: 30px 20px 20px 20px;
+	padding-bottom : 50px;
+	background-color: #D5EDF8;
+}
+
+.edit_category label {
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+.users {
+	border-radius: 15px;
+	margin-top: 10px;
+	padding: 30px 20px 20px 20px;
+	padding-bottom : 50px;
+	background-color: #D5EDF8;
+}
+
+.users h3 {
+	margin-top: 0;
+}
+
+.tag {
+	border-radius: 15px;
+	margin-top: 10px;
+	padding: 30px 20px 20px 20px;
+	padding-bottom : 50px;
+	background-color: #D5EDF8;
+}
+
+.tag-top {
+	height: 60px;
+	border-bottom: 1px solid #9CB3BC;
+}
+
+#draft-time {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+

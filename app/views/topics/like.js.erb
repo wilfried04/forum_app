@@ -1,0 +1,11 @@
+<% count = @topic.likes_count %>
+<% if current_user.liked_topics.include?(@topic) %>
+	<% value = "Unlike" %>
+<% else %>
+	<% value = "Like" %>
+<% end %>
+
+$("#like").html("<%= value %> <span class='badge'><%= @topic.likes_count %></span>")
+
+
+// turbolinks => false
