@@ -41,7 +41,7 @@ class TopicsController < ApplicationController
 
 	def show 
 		limit(@topic.limit_id)
-		views = 1 + @topic.views_count
+		views = 2 + @topic.views_count
 		@topic.update(:views_count => views)
 		@images = Image.where(:topic_id => @topic.id)
 		@comment = @topic.comments.build
@@ -144,10 +144,10 @@ class TopicsController < ApplicationController
 	def create_tag
 		@tag = Tag.new(params.require(:tag).permit(:name))
 		if @tag.save
-			flash[:noitce] = "OOO"
+			flash[:noitce] = "Tag Created"
 			redirect_to topic_path(@topic)
 		else
-			flash[:alert] = "XXX"
+			flash[:alert] = "error"
 			render "show"
 		end
 	end
@@ -177,7 +177,7 @@ class TopicsController < ApplicationController
 			when 2
 				if current_user != @topic.user
 					if !(current_user.friendships.find_by_friend_id(@topic.user.id) && current_user.inverse_friendships.find_by_user_id(@topic.user.id))
-						flash[:alert] = "Add me as a friend if you want to see it! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !"
+						flash[:alert] = "Add me as a friend if you want to see it! ! ! ! ! ! ! ! ! ! !"
 						redirect_to :back
 					end
 				end

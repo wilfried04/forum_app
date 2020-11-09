@@ -1,7 +1,7 @@
 class Admin::UsersController < ApplicationController
 
-	before_action :authenticate_user! # 這個是 devise 提供的方法，先檢查必須登入
-	before_action :authenticate_admin # 再檢查是否有權限
+	before_action :authenticate_user! #Crawl individual devise Providing method, required entry
+	before_action :authenticate_admin # Re-introduction
 	
 	def index
 		@users = User.all

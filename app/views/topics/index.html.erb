@@ -2,7 +2,7 @@
 	<% if @user.try(:role) == "admin" %>
 		<%= link_to "Back" , admin_topics_path , :class => "btn btn-danger btn-lg pull-right" %>
 	<% end %>
-	<h1>Forum</h1>
+	<h2>Forum</h2>
 	
 	<%= form_tag topics_path , :method => :get do %>
 		<%= text_field_tag "search" , nil , size: 50 %>

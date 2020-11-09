@@ -20,7 +20,7 @@ class Api::BaseController < ApplicationController
 		headers['Access-Control-Allow-Headers'] = 'Origin, X-Atmosphere-tracking-id, X-Atmosphere-Framework, X-Cache-Date, Content-Type, X-Atmosphere-Transport, X-Remote, api_key, auth_token, *'
 		headers['Access-Control-Request-Method'] = 'GET, POST, PUT, DELETE'
 		headers['Access-Control-Request-Headers'] = 'Origin, X-Atmosphere-tracking-id, X-Atmosphere-Framework, X-Cache-Date, Content-Type, X-Atmosphere-Transport,  X-Remote, api_key, *'
-		# Access-Control-Allow-Headers Access-Control-Request-Method 是一樣的只是瀏覽器的預設名稱不一樣 
+		# Access-Control-Allow-Headers Access-Control-Request-Method
 	end
 
 	def set_default_format
@@ -33,7 +33,7 @@ class Api::BaseController < ApplicationController
 	end
 
 	def respond_200(hash_data)
-		response.headers['Accept-Language'] = 'zh_TW'
+		#response.headers['Accept-Language'] = 'en'
 		render json: hash_data
 	end
 
