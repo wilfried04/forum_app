@@ -1,0 +1,18 @@
+#config/facebook.yml
+development:
+    app_id: 1158718570175
+    secret_key: aashfljkhaklasfasfd
+    app_key: sdgasdg435672456236
+    callback_url: http://localhost:3000/
+
+test:
+    app_id: 1158718570175
+    secret_key: aashfljkhaklasfasfd
+    app_key: sdgasdg435672456236
+    callback_url: https://test.test.com/
+    
+production:
+    app_id: 1158718570175
+    secret_key: aashfljkhaklasfasfd
+    app_key: sdgasdg435672456236
+    callback_url: https://prod.prod.com/ 
