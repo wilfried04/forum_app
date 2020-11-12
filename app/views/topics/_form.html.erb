@@ -7,9 +7,7 @@
 <% end %>
 
 <div class="form-group">
-	<div class="form-group">
-		<%= f.collection_radio_buttons(:limit_id , Limit.all , :id , :name , {} , { checked: true } )   %>
-	</div>
+
 	<div class="file-field">
 		<%= file_field_tag "images[]" , :type => :file %>
 	</div>
