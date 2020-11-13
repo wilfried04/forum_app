@@ -21,8 +21,8 @@ class UsersController < ApplicationController
 
 	def profile
 		@user = User.find_by(email: params[:useremail])
-#@topics = @user.topics
-		#@comments = @user.comments
+	@topics = @user.topics
+	@comments = @user.comments
 	end
 
 	def favorite
