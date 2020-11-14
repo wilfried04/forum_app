@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 require 'rails_helper'
 
 describe 'Hello' do
@@ -7,8 +6,6 @@ describe 'Hello' do
 		expect(@tag.save).not_to eq(false)
 	}
 end
-||||||| merged common ancestors
-=======
 require 'rails_helper'
 
 describe 'Hello' do
@@ -20,4 +17,3 @@ describe 'Hello' do
 		expect(c.save).to eq(true)
 	}
 end
->>>>>>> feature

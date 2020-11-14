@@ -4,8 +4,9 @@ class TopicsController < ApplicationController
 	before_action :find_topic , :except => [:index , :new , :create , :about ]
 	
 	def index
-
-		#  @topic.draft_time > Time.zone.now
+		
+		#@topic.draft_time > Time.zone.now
+		@topics = Topic.all
 		@topics_draft = Topic.where(:draft => true)
 		@topics_draft.each do |draft|
 			if Time.now > draft.draft_time 

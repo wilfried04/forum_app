@@ -11,7 +11,7 @@
 
   <body>
 	<div class="container">
-		<div class="fb-like" data-href="http://www.localhost:3000/" data-width="20px" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+		<%# <div class="fb-like" data-href="http://www.localhost:3000/" data-width="20px" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div> %>
 		<div class="pull-right">
 			<% if current_user %>
  				<% if current_user.friendships.count < current_user.inverse_friendships.count %>

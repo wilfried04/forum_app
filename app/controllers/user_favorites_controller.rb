@@ -4,10 +4,10 @@ class UserFavoritesController < ApplicationController
 		@user = current_user
 		@favorite = @user.favorites.build(:topic_id => params[:topic_id] , :user_id => params[:user_id])
 		if @favorite.save
-			flash[:notice] = "oooo"
+			flash[:notice] = "Saved!!!"
 			redirect_to topic_path(@topic)
 		else
-			flash[:alert] = "xxxx"
+			flash[:alert] = "No!!!"
 			render topic_path(@topic)
 		end
 	end
