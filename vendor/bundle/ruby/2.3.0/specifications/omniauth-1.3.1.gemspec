@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 1.3.5") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Michael Bleigh", "Erik Michaels-Ober", "Tom Milewski"]
-  s.date = "2015-12-20"
+  s.date = "2020-11-20"
   s.description = "A generalized Rack framework for multiple-provider authentication."
   s.email = ["michael@intridea.com", "sferik@gmail.com", "tmilewski@gmail.com"]
   s.homepage = "http://github.com/intridea/omniauth"

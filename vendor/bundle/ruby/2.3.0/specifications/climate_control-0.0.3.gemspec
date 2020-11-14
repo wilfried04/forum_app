@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Joshua Clayton"]
-  s.date = "2012-11-30"
+  s.date = "2020-11-13"
   s.description = "Modify your ENV"
   s.email = ["joshua.clayton@gmail.com"]
   s.homepage = "https://github.com/thoughtbot/climate_control"

@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Santiago Pastorino"]
-  s.date = "2016-06-30"
+  s.date = "2020-11-14"
   s.description = "CoffeeScript adapter for the Rails asset pipeline."
   s.email = ["santiago@wyeworks.com"]
   s.homepage = "https://github.com/rails/coffee-rails"

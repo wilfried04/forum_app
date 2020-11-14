@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 1.3.6") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Andr\u{e9} Arko"]
-  s.date = "2016-08-19"
+  s.date = "2020-11-19"
   s.description = "This gem provides jQuery and the jQuery-ujs driver for your Rails 4+ application."
   s.email = ["andre@arko.net"]
   s.homepage = "https://github.com/rails/jquery-rails"

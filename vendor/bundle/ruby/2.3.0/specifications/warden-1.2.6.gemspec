@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Daniel Neighman"]
-  s.date = "2016-01-31"
+  s.date = "2020-11-11"
   s.email = "has.sox@gmail.com"
   s.extra_rdoc_files = ["LICENSE", "README.textile"]
   s.files = ["LICENSE", "README.textile"]

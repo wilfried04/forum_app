@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["James Coglan"]
-  s.date = "2016-05-20"
+  s.date = "2020-11-10"
   s.email = "jcoglan@gmail.com"
   s.extensions = ["ext/websocket-driver/extconf.rb"]
   s.extra_rdoc_files = ["README.md"]

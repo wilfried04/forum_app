@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Ryan Tomayko"]
-  s.date = "2016-06-02"
+  s.date = "2020-11-02"
   s.description = "Generic interface to multiple Ruby template engines"
   s.email = "r@tomayko.com"
   s.executables = ["tilt"]

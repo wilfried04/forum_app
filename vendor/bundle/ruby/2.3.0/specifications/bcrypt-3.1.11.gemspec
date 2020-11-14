@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Coda Hale"]
-  s.date = "2016-03-06"
+  s.date = "2020-11-06"
   s.description = "    bcrypt() is a sophisticated and secure hash algorithm designed by The OpenBSD project\n    for hashing passwords. The bcrypt Ruby gem provides a simple wrapper for safely handling\n    passwords.\n"
   s.email = "coda.hale@gmail.com"
   s.extensions = ["ext/mri/extconf.rb"]

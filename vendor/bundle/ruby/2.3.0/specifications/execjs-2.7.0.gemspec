@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Sam Stephenson", "Josh Peek"]
-  s.date = "2016-05-20"
+  s.date = "2020-11-13"
   s.description = "ExecJS lets you run JavaScript code from Ruby."
   s.email = ["sstephenson@gmail.com", "josh@joshpeek.com"]
   s.homepage = "https://github.com/rails/execjs"

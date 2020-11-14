@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Jos\u{e9} Valim", "Carlos Ant\u{f4}nio"]
-  s.date = "2016-07-01"
+  s.date = "2020-11-01"
   s.description = "Flexible authentication solution for Rails with Warden"
   s.email = "contact@plataformatec.com.br"
   s.homepage = "https://github.com/plataformatec/devise"

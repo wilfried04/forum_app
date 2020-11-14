@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Akinori MUSHA", "Aaron Patterson", "Eric Hodel", "Mike Dalessio"]
-  s.date = "2016-09-30"
+  s.date = "2020-11-13"
   s.description = "HTTP::Cookie is a Ruby library to handle HTTP Cookies based on RFC 6265.  It has with security, standards compliance and compatibility in mind, to behave just the same as today's major web browsers.  It has builtin support for the legacy cookies.txt and the latest cookies.sqlite formats of Mozilla Firefox, and its modular API makes it easy to add support for a new backend store."
   s.email = ["knu@idaemons.org", "aaronp@rubyforge.org", "drbrain@segment7.net", "mike.dalessio@gmail.com"]
   s.extra_rdoc_files = ["README.md", "LICENSE.txt"]

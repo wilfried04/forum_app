@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Jerry D'Antonio", "The Ruby Concurrency Team"]
-  s.date = "2016-05-02"
+  s.date = "2020-11-02"
   s.description = "Modern concurrency tools including agents, futures, promises, thread pools, actors, supervisors, and more.\nInspired by Erlang, Clojure, Go, JavaScript, actors, and classic concurrency patterns.\n"
   s.email = ["jerry.dantonio@gmail.com", "concurrent-ruby@googlegroups.com"]
   s.extra_rdoc_files = ["README.md", "LICENSE.txt", "CHANGELOG.md"]

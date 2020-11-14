@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Mark Dodwell", "Josef \u{160}im\u{e1}nek"]
-  s.date = "2016-07-27"
+  s.date = "2020-11-16"
   s.email = ["mark@madeofcode.com", "retro@ballgag.cz"]
   s.homepage = "https://github.com/mkdynamic/omniauth-facebook"
   s.licenses = ["MIT"]

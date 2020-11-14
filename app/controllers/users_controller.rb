@@ -11,18 +11,18 @@ class UsersController < ApplicationController
 	def update 
 		@user = current_user
 		if @user.update(write_user)
-			flash[:notice] = "OOOO"
+			flash[:notice] = "Update!!!"
 			redirect_to profile_users_path(:useremail => current_user.email)
 		else
-			flash[:alert] = "XXXX"
+			flash[:alert] = "Error!!!"
 			render "profile"
 		end
 	end
 
 	def profile
 		@user = User.find_by(email: params[:useremail])
-	@topics = @user.topics
-	@comments = @user.comments
+		@topics = @user.topics
+		@comments = @user.comments
 	end
 
 	def favorite

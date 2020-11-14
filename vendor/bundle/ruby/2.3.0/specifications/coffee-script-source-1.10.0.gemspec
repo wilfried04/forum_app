@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Jeremy Ashkenas"]
-  s.date = "2015-09-03"
+  s.date = "2020-11-03"
   s.description = "    CoffeeScript is a little language that compiles into JavaScript.\n    Underneath all of those embarrassing braces and semicolons,\n    JavaScript has always had a gorgeous object model at its heart.\n    CoffeeScript is an attempt to expose the good parts of JavaScript\n    in a simple way.\n"
   s.email = "jashkenas@gmail.com"
   s.homepage = "http://jashkenas.github.com/coffee-script/"

@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Jon Yurek"]
-  s.date = "2015-11-20"
+  s.date = "2020-11-14"
   s.description = "A small library for doing (command) lines"
   s.email = "jyurek@thoughtbot.com"
   s.homepage = "https://github.com/thoughtbot/cocaine"

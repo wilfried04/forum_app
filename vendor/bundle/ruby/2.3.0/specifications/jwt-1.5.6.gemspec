@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Jeff Lindsay", "Tim Rudat"]
-  s.date = "2016-09-19"
+  s.date = "2020-11-19"
   s.description = "A pure ruby implementation of the RFC 7519 OAuth JSON Web Token (JWT) standard."
   s.email = "timrudat@gmail.com"
   s.homepage = "http://github.com/jwt/ruby-jwt"

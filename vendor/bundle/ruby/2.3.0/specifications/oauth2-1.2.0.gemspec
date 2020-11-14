@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 1.3.5") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Michael Bleigh", "Erik Michaels-Ober"]
-  s.date = "2016-07-01"
+  s.date = "2020-11-16"
   s.description = "A Ruby wrapper for the OAuth 2.0 protocol built with a similar style to the original OAuth spec."
   s.email = ["michael@intridea.com", "sferik@gmail.com"]
   s.homepage = "http://github.com/intridea/oauth2"

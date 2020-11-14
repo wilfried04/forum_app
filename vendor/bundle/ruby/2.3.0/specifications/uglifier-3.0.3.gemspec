@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Ville Lautanala"]
-  s.date = "2016-10-24"
+  s.date = "2020-11-14"
   s.description = "Uglifier minifies JavaScript files by wrapping UglifyJS to be accessible in Ruby"
   s.email = ["lautis@gmail.com"]
   s.extra_rdoc_files = ["LICENSE.txt", "README.md", "CHANGELOG.md", "CONTRIBUTING.md"]

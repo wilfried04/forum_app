@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Benjamin Curtis"]
-  s.date = "2016-07-25"
+  s.date = "2020-11-10"
   s.description = "Faker, a port of Data::Faker from Perl, is used to easily generate fake data: names, addresses, phone numbers, etc."
   s.email = ["benjamin.curtis@gmail.com"]
   s.homepage = "https://github.com/stympy/faker"

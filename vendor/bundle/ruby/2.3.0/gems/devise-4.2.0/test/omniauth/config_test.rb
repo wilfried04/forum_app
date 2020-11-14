@@ -16,7 +16,7 @@ class OmniAuthConfigTest < ActiveSupport::TestCase
   end
 
   test 'returns name option when have a name' do
-    config = Devise::OmniAuth::Config.new :facebook, [{ name: :github }]
+    config = Devise::OmniAuth::Config.new :, [{ name: :github }]
     assert_equal :github, config.strategy_name
   end
 

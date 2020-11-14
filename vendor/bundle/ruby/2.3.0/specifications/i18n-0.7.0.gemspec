@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 1.3.5") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Sven Fuchs", "Joshua Harvey", "Matt Aimonetti", "Stephan Soller", "Saimon Moore"]
-  s.date = "2014-12-19"
+  s.date = "2020-11-14"
   s.description = "New wave Internationalization support for Ruby."
   s.email = "rails-i18n@googlegroups.com"
   s.homepage = "http://github.com/svenfuchs/i18n"

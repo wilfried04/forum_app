@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["David Heinemeier Hansson"]
-  s.date = "2016-07-26"
+  s.date = "2020-11-13"
   s.description = "URIs for your models makes it easy to pass references around."
   s.email = "david@loudthinking.com"
   s.homepage = "http://www.rubyonrails.org"

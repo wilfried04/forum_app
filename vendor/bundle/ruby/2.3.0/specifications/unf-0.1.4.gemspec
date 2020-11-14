@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Akinori MUSHA"]
-  s.date = "2014-04-04"
+  s.date = "2020-11-04"
   s.description = "This is a wrapper library to bring Unicode Normalization Form support\nto Ruby/JRuby.\n"
   s.email = ["knu@idaemons.org"]
   s.extra_rdoc_files = ["README.md", "LICENSE"]

@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Tony Arcieri"]
-  s.date = "2016-01-31"
+  s.date = "2020-11-11"
   s.description = "New IO for Ruby"
   s.email = ["tony.arcieri@gmail.com"]
   s.extensions = ["ext/nio4r/extconf.rb"]

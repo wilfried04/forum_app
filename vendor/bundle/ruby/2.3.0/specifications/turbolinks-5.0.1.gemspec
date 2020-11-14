@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["David Heinemeier Hansson"]
-  s.date = "2016-07-31"
+  s.date = "2020-11-15"
   s.description = "Rails engine for Turbolinks 5 support"
   s.email = "david@loudthinking.com"
   s.homepage = "https://github.com/turbolinks/turbolinks"

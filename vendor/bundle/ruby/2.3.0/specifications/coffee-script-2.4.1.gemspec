@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Jeremy Ashkenas", "Joshua Peek", "Sam Stephenson"]
-  s.date = "2015-04-06"
+  s.date = "2020-11-06"
   s.description = "    Ruby CoffeeScript is a bridge to the JS CoffeeScript compiler.\n"
   s.email = "josh@joshpeek.com"
   s.homepage = "http://github.com/josh/ruby-coffee-script"

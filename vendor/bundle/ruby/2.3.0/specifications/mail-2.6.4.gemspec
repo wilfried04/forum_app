@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Mikel Lindsaar"]
-  s.date = "2016-03-23"
+  s.date = "2020-11-13"
   s.description = "A really Ruby Mail handler."
   s.email = "raasdnil@gmail.com"
   s.extra_rdoc_files = ["README.md", "CONTRIBUTING.md", "CHANGELOG.rdoc", "TODO.rdoc"]

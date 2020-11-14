@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Akinori MUSHA"]
-  s.date = "2016-10-27"
+  s.date = "2020-11-14"
   s.description = "This is a Domain Name manipulation library for Ruby.\n\nIt can also be used for cookie domain validation based on the Public\nSuffix List.\n"
   s.email = ["knu@idaemons.org"]
   s.extra_rdoc_files = ["LICENSE.txt", "README.md"]

@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Takeru Ohta", "Akinori MUSHA"]
-  s.date = "2016-02-03"
+  s.date = "2020-11-03"
   s.description = "Unicode Normalization Form support library for CRuby"
   s.email = ["knu@idaemons.org"]
   s.extensions = ["ext/unf_ext/extconf.rb"]

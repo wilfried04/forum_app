@@ -463,7 +463,7 @@ module SignedRequestTests
     end
 
     test 'calls fail! when a code is not included in the params' do
-      strategy.expects(:fail!).times(1).with(:no_authorization_code, kind_of(OmniAuth::Strategies::Facebook::NoAuthorizationCodeError))
+      strategy.expects(:fail!).times(1).with(:no_authorization_code, kind_of(OmniAuth::Strategies::::NoAuthorizationCodeError))
       strategy.callback_phase
     end
   end
