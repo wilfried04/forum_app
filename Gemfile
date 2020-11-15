@@ -47,6 +47,8 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'byebug', platform: :mri
   gem 'roundabout'
+  gem 'guard-rspec', require: false
+  gem 'factory_bot'
 end
 
 group :development do
@@ -61,3 +63,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'rails-i18n'
