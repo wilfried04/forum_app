@@ -1,4 +1,4 @@
-equire 'rails_helper'
+require 'rails_helper'
 #bundle exec rspec
 RSpec.describe Api::UsersController, type: :request do
 

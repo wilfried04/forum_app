@@ -46,7 +46,7 @@ class Api::BaseController < ApplicationController
 	end
 
 	def respond_500(exception)
-		responde_error(exception.message , 500)
+		respond_error(exception.message , 500)
 	end
 
 end
