@@ -14,14 +14,12 @@ Forum is an application of communication between friends, this application has t
  - [ ] function to register a new user
     - [ ] requires email and a password
      - [ ] connexion with google or facebook (oauth fonction)
- - [ ] list users (self contractors) 
     - [ ] summary of their information (name, contact, address, logo)
     - [ ] link to visit the complete information page 
 - [ ] function to edit information pages
 - [ ] function to delete information pages
 - [ ] function to following another user (partner)
 - [ ] message function between partners
-- [ ] Profile rating system
 - [ ] search fonction
 - [ ] sort function
 - [ ] comments function
@@ -31,7 +29,6 @@ Forum is an application of communication between friends, this application has t
 - [ ] topics function
 - [ ] limits function
 - [ ] subscribes function
-- [ ] tag function
 
 * ## Catalog design,Table_Definition,Screen transition diagram,,Wire frame
 
