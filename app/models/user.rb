@@ -24,7 +24,7 @@ class User < ApplicationRecord
 
 
 	has_attached_file :avatar, styles: { medium: "300x300>", thumb: "50x50>" }, default_url: "/images/:style/missing.png"
-  validates_attachment_content_type :avatar, content_type: /\Aimage\/.*\z/
+	validates_attachment_content_type :avatar, content_type: /\Aimage\/.*\z/
 
   	def get_fb_data
  		j = RestClient.get "https://graph.facebook.com/v2.5/me", :params => { :access_token => self.fb_token, :fields => "id,name,email,picture" }
@@ -64,7 +64,32 @@ class User < ApplicationRecord
 	     user.save!
 	     return user
 	end
-
-	
-
+    # def avatar_content_type
+    #     if avatar_content_type.present?
+    #       avatar_content_type.url
+    #     else
+    #       '/default-avatar.png'
+    #     end
+	# end
+	# def avatar_file_name
+    #     if avatar_file_name.present?
+    #       avatar_file_name.url
+    #     else
+    #       '/default-avatar.png'
+    #     end
+    # end
+	# def avatar_file_size
+    #     if avatar_file_size.present?
+    #       avatar_file_size.url
+    #     else
+    #       '/default-avatar.png'
+    #     end
+	# end
+	# def avatar_updated_at
+    #     if avatar_updated_at.present?
+    #       avatar_updated_at.url
+    #     else
+    #       '/default-avatar.png'
+    #     end
+    # end
 end
